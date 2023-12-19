@@ -1,4 +1,6 @@
 import {SiOpenaigym} from 'react-icons/si'
+import { GiCrownedSkull } from "react-icons/gi";
+
 
 import Trainer1 from './images/trainer1.jpg';
 import Trainer2 from './images/trainer2.jpg';
@@ -59,28 +61,28 @@ export const links = [
 export const programs = [
     {
         id: 1,
-        icon: SiOpenaigym,
+        icon: GiCrownedSkull,
         title: "Program One",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/111"
     },
     {
         id: 2,
-        icon: SiOpenaigym,
+        icon: GiCrownedSkull,
         title: "Program Two",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/222"
     },
     {
         id: 3,
-        icon: SiOpenaigym,
+        icon: GiCrownedSkull,
         title: "Program Three",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/333"
     },
     {
         id: 4,
-        icon: SiOpenaigym,
+        icon:GiCrownedSkull,
         title: "Program Four",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/444"

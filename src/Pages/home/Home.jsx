@@ -1,13 +1,14 @@
 
 import './home.css'
 
-import Logo from '../../images/about1.jpg'
 import MainHeader from '../../Components/MainHeader'
+import Programs from '../../Components/Programs'
 
 function Home() {
   return (
     <>
     <MainHeader/>
+    <Programs/>
     </>
    
   )
