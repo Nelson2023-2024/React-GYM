@@ -45,7 +45,9 @@ function Navbar() {
         </ul>
 
         <button onClick={() => setisNavShowing(!isNavShowing)} className="nav__toggle-btn">
-          <FaBarsStaggered />
+          {
+            isNavShowing  ?  <IoMdClose/>: <FaBarsStaggered />
+          }
           
         </button>
         
