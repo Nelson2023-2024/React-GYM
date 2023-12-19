@@ -31,7 +31,7 @@ function Navbar() {
         </Link>
 
         <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>
-        <IoMdClose onClick={() => setisNavShowing(false)} className='close' />
+        
             {
               
                 links.map(({name, path, id} ) =>{
@@ -46,7 +46,7 @@ function Navbar() {
 
         <button onClick={() => setisNavShowing(!isNavShowing)} className="nav__toggle-btn">
           {
-            isNavShowing  ?  <IoMdClose/>: <FaBarsStaggered />
+            isNavShowing  ?  <IoMdClose className='x'/>: <FaBarsStaggered />
           }
           
         </button>
