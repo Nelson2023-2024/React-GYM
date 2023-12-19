@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <nav>
       <div className="container nav__container">
-        <Link className='logo' to='/'>
+        <Link onClick={() => setisNavShowing(false)} className='logo' to='/'>
             <img src={Logo} alt="Nav Logo" />
         </Link>
 
@@ -37,14 +37,14 @@ function Navbar() {
                 links.map(({name, path, id} ) =>{
                     return(
                         <li key={id}>
-                            <NavLink  to={path}>{name}</NavLink>
+                            <NavLink onClick={() => setisNavShowing(prevNavShowing => !prevNavShowing)}  to={path}>{name}</NavLink>
                         </li>
                     )
                 })
             }
         </ul>
 
-        <button onClick={() => setisNavShowing(!isNavShowing)} className="nav__toggle-btn">
+        <button onClick={() => setisNavShowing(prevNavShowing => !prevNavShowing)} className="nav__toggle-btn">
           {
             isNavShowing  ?  <IoMdClose className='x'/>: <FaBarsStaggered />
           }

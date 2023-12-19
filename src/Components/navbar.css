@@ -144,8 +144,7 @@ nav{
 
 @media (max-width:789px) {
     .nav__links li{
-     
-        width: 170px;
+        width: 150px;
     }
-    
+
 }

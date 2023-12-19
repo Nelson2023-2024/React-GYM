@@ -64,3 +64,33 @@ img{
     object-fit: cover;
     width: 100%;
 }
+
+.btn{
+    color: var(--color-white-100);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    background: var(--color-primary);
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background: var(--color-secondary);
+    color: var(--color-DeepBlack-600);
+}
+
+.btn.lg{
+    padding: 1.2re 3rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+}
+.btn.sm{
+    padding:.4rem 1.2rem;
+    font-size: .9rem;
+}
+.btn.sm:hover{
+    background-color: var(--color-white-100);
+}
+
+/* SCROLLBAR */
