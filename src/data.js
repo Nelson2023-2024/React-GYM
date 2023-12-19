@@ -1,5 +1,8 @@
 import {SiOpenaigym} from 'react-icons/si'
 import { GiCrownedSkull } from "react-icons/gi";
+import { CgGym } from "react-icons/cg";
+import { FaDumbbell, FaRunning, FaWeight, FaWater } from 'react-icons/fa';
+
 
 
 import Trainer1 from './images/trainer1.jpg';
@@ -61,32 +64,32 @@ export const links = [
 export const programs = [
     {
         id: 1,
-        icon: GiCrownedSkull,
-        title: "Program One",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/111"
-    },
-    {
+        icon: FaDumbbell ,
+        title: "Weight Loss Training",
+        info: "A comprehensive program designed for effective weight loss, targeting fat burning and muscle toning.",
+        path: "/programs/weight-loss-training"
+      },
+      {
         id: 2,
-        icon: GiCrownedSkull,
-        title: "Program Two",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/222"
-    },
-    {
+        icon: CgGym ,
+        title: "Strength Building",
+        info: "Dedicated workouts focusing on building muscle strength and endurance, enhancing overall body strength.",
+        path: "/programs/strength-building"
+      },
+      {
         id: 3,
-        icon: GiCrownedSkull,
-        title: "Program Three",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/333"
-    },
-    {
+        icon: FaRunning ,
+        title: "Cardio Conditioning",
+        info: "Intensive cardio sessions to improve cardiovascular health, stamina, and overall fitness levels.",
+        path: "/programs/cardio-conditioning"
+      },
+      {
         id: 4,
-        icon:GiCrownedSkull,
-        title: "Program Four",
-        info: "This is the day that the lord has made. We will rejoice!",
-        path: "/programs/444"
-    }
+        icon: FaRunning ,
+        title: "Flexibility Training",
+        info: "Specialized training to enhance flexibility, agility, and prevent injury through stretching and mobility exercises.",
+        path: "/programs/flexibility-training"
+      }
 ]
 
 

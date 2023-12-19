@@ -12,12 +12,10 @@ function MainHeader() {
    <header className="main__header">
     <div className="container main__header-container">
       <div className="main__header-left">
-        <h4>#100DaysOfWorkOut</h4>
-        <h1>Jin The Legends Of The Fitness World</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat et qui, quibusdam earum architecto quae iste voluptates, ullam voluptas, mollitia sequi est! Ut aliquid magnam a dolor amet eos consequuntur.
-
-        </p>
-        <Link to='/plans' className="btn lg">Get Started</Link>
+      <h4>#JoinTheMovement - Start Your Fitness Journey Today</h4>
+        <h1>Transform Your Body, Transform Your Life</h1>
+        <p>Welcome to our gym, where fitness meets excellence! Were dedicated to helping you achieve your fitness goals, whether its building muscle, improving cardio, or staying fit.</p>
+          <Link to='/plans' className="btn lg">Get Started</Link>
       </div>
 
       <div className="main__header-right">
