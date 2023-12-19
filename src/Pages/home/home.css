@@ -66,3 +66,46 @@
     background-color:var(--color-secondary) ;
     color: var(--color-gray-600);
 }
+
+/* *******************VALUES************************* */
+.values{
+    margin-top: 6rem;
+}
+.values__container{
+    display: grid;
+    grid-template-columns: 38% 50%;
+    gap: 12%;
+    align-items: center;
+}
+
+.values-image{
+    filter:saturate(.25) ;
+    transition:var(--transition);
+}
+.values-image:hover{
+   filter: saturate(1);
+}
+
+.values__right{
+    margin: 1.5rem 0 5rem;
+}
+.values__right p{
+    margin-bottom: 4rem;
+}
+.values__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.4rem 2.4rem;
+}
+
+.card.values__values{
+    padding-top: 3rem;
+    text-align: left;
+    position: relative;
+    border-radius: 10px;
+}
+
+.card.values__values span{
+    position: absolute;
+    top: -1.5rem;
+}

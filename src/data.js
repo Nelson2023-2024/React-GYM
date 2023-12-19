@@ -78,7 +78,7 @@ export const programs = [
       },
       {
         id: 3,
-        icon: FaRunning ,
+        icon: FaWeight ,
         title: "Cardio Conditioning",
         info: "Intensive cardio sessions to improve cardiovascular health, stamina, and overall fitness levels.",
         path: "/programs/cardio-conditioning"
@@ -103,27 +103,26 @@ export const values = [
     {
         id: 1,
         icon: SiOpenaigym,
-        title: "Value One",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Efficient Workouts",
+        desc: "Time-efficient exercises designed to fit into your busy schedule.",
     },
     {
         id: 2,
         icon: SiOpenaigym,
-        title: "Value Two",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    },
+        title: "Personalized Training",
+        desc: "Customized workout plans tailored to your fitness goals and needs.",    },
     {
         id: 3,
         icon: SiOpenaigym,
-        title: "Value Three",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Motivation & Support",
+        desc: "Stay motivated with our supportive community and inspiring trainers.",
     },
     {
         id: 4,
         icon: SiOpenaigym,
-        title: "Value Four",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    }
+        title: "Nutrition Guidance",
+        desc: "Expert advice on nutrition and healthy lifestyle choices for overall well-being.",
+    },
 ]
 
 
