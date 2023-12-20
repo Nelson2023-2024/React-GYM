@@ -3,7 +3,8 @@
     display: grid;
     place-items: center;
     height: calc(100dvh - 3rem);
-    margin-top: 3rem
+    margin-top: 3rem;
+    padding-top: 2.5rem;
 }
 
 .main__header-container{
@@ -267,3 +268,154 @@ footer{
     color: red;
     font-size: 1.2rem;
 }
+
+
+
+
+/* *******************MEDIA QUERIES************************* */
+/* MAIN HEADER (index) */
+@media (max-width:1024px) {
+    .main__header{
+        height: fit-content;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    }
+    .main__header-container{
+        gap: 0;
+    }
+
+    .main__header-circle{
+        width: 16rem;
+        height: 16rem;
+    }
+    /* PROGRAMS */
+    .programs__wrapper{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.4rem;
+    }
+
+    /* VALUES */
+    .values__container{
+        grid-template-columns: 1fr;
+    }
+    .values__left{
+        order: 2;
+        margin-top: -15rem;
+    }
+    .values__left img{
+        width: 70%;
+        margin: 2rem auto 8rem;
+    }
+    .values__wrapper{
+        gap: 1rem ;
+    }
+
+    /* FAQs */
+    .faqs__wrapper{
+        gap: 1rem;
+       
+    }
+
+    /* FOOTER */
+    
+    .footer__container{
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+
+    }
+}
+    @media (max-width:768px) {
+        /* MAINHEADER */
+        .main__header{
+           margin-top: 0;
+           padding: 12rem 0 0;
+           height: 100vh;
+           text-align: center;
+        }
+        .main__header-img, .main__header-circle{
+            display: none;
+        }
+        .main__header-container{
+            grid-template-columns: 1fr;
+        }
+
+        /* PROGRAMS */
+        .programs__wrapper{
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 3rem;   
+        }
+       
+        .programs__program{
+            width: 84%;
+            margin: auto;
+        }
+
+        /* VALUES */
+        .values__right .section__head{
+            margin-bottom: 2.5rem;
+        }
+        .values__right .section__head span{
+            font-size: 1.6rem;
+         }
+
+         .values__left img{
+            border-radius: 10px;
+            border: 1px solid #000;
+            padding: 20px;
+            margin: 2rem auto 3rem;
+         }
+
+         /* FAQs */
+         
+         .faqs{
+            margin-bottom: -4rem;
+         }
+         .faqs__wrapper{
+            grid-template-columns: 1fr;
+         }
+         /* TESTIMONIALS */
+         
+         
+
+    @media (max-width:600px) {
+        /* VALUES */
+        .values{
+            margin-bottom: 1rem;
+        }
+        .values__wrapper{
+            grid-template-columns: 1fr;
+        }
+        .card.values__values{
+            width: 84%;
+            margin-inline: auto;
+         }
+         .values__left img{
+            display: none;
+         }
+
+         /* FAQs */
+         .faqs{
+            margin-top: -10px;
+         }
+        
+         .faqs__wrapper{
+            width: 84%;
+            margin-inline: auto;
+         }
+
+         /* FOOTER */
+         .footer__container{
+            grid-template-columns: 1fr;
+            gap: 3rem;
+         }
+         .footer__container article{
+            align-items: center;
+         }
+         .footer__container article p{
+            text-align: center;
+         }
+    }
+}
+
+

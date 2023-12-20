@@ -120,13 +120,14 @@ section{
     justify-content: center;
 }
 
+
 .section__head span{
     background-color: var(--color-MidnightBlue-500);
     padding: .8rem;
     border-radius: 1rem;
     color: var(--color-secondary);
-    font-size: 1.5rem;
 }
+
 
 /* Cards */
 .card{
@@ -170,3 +171,33 @@ section{
     font-weight: 300;
 }
 
+/* GENERAL MEDIA QUERIES (media screens) */
+
+@media (max-width:1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:768px) {
+  
+    h1{
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+}
+
+@media (max-width:600px) {
+    h1{
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+}
