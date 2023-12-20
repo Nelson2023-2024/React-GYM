@@ -99,6 +99,8 @@ img{
 ::-webkit-scrollbar {
     width: 6px;
     height: 40px; /* Set the width of the entire scrollbar */
+    cursor: pointer;
+
 }
 ::-webkit-scrollbar-thumb {
     background: #6b6b6b; /* Set the color of the scrollbar */

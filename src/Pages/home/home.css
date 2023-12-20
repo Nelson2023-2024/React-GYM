@@ -143,3 +143,59 @@
 .faq p{
     margin-top: 1.5rem;
 }
+
+/* *******************TESTIMONIALS************************* */
+
+.testimonials{
+    max-width: 90rem;
+    margin-inline: auto;
+}
+
+.testimonials__head{
+    margin-bottom: 4rem;
+}
+
+.card.testimonials{
+    position: relative;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.testimonial__avatar img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: -2rem;
+    left: calc(50% - 2rem);
+    overflow: hidden;
+    box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, .4);
+    transition: var(--transition);
+}
+
+.card.testimonials:hover img{
+    border-radius: 50%;   
+}
+
+.testimonial__quote{
+    font-style: italic;
+    margin:1rem 0 2rem;
+}
+
+.card small{
+    margin: .3rem;
+}
+
+.testimonials__btn-container{
+    margin: 2.5rem auto  0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.testimonials__btn{
+    background: transparent;
+    color: var(--color-white-100);
+    font-size: 2rem;
+}
