@@ -199,3 +199,71 @@
     color: var(--color-white-100);
     font-size: 2rem;
 }
+
+/* *******************FOOTER************************* */
+
+footer{
+    background: var(--color-primary);
+    margin-top: 7rem;
+    padding-top: 7rem;
+    font-size: .9rem;
+    color: var(--color-white-100);
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    justify-content: space-between; 
+    gap: 2rem;  
+    padding-bottom: 3rem;
+}
+.footer__container article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .7rem;
+}
+
+.footer__container article p{
+    margin-top: 1.5rem;
+}
+
+.footer__container article h4{
+    font-size: 1rem;
+    margin-bottom: .6rem;
+    font-weight: bolder;
+}
+
+.footer__socials{
+    margin-top: 4.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer__socials a{
+    background: var(--color-white-100);
+    padding: .7rem;
+    border: 1px solid transparent;
+    border-radius: .6rem;
+    transition: var(--transition);
+}
+
+.footer__socials a svg{
+    color: black;
+}
+
+.footer__socials a:hover{
+    border-color: var(--color-white-100);
+    background: transparent;
+    
+}
+
+.footer__copyright{
+    text-align: center;
+    background-color: rgb(1, 4, 14);
+}
+
+.heart{
+    color: red;
+    font-size: 1.2rem;
+}

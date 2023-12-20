@@ -20,9 +20,10 @@ nav{
     justify-content: space-between;
 }
 
-.nav__container .logo{
+.logo{
     width: 7rem;
     align-self: center;
+    display: block;
 }
 
 .nav__links{

@@ -70,7 +70,7 @@ function Footer() {
         <div className="footer__copyright">
 
             <p>All rights reserved by <FaRegCopyright /> Nelson 2023 </p>
-            <small>Made with <FaHeart /> by Nelson  </small>
+            <small>Made with <FaHeart className="heart"/> by Nelson  </small>
         </div>
     </footer>
   )
