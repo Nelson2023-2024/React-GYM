@@ -1,0 +1,116 @@
+.contact{
+    margin: 1rem auto;
+}
+.contact__wrapper h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.contact-form .form-control{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    
+}
+
+.contact-form .form-control input{
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 1rem;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.contact-form .form-control:nth-child(2){
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.contact-form .form-control:nth-child(3){
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.contact-form .form-control textarea{
+    width: 100%;
+    margin: 0 auto;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 1rem;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.contact-form button{
+    width: 100%;
+    margin: 0 auto;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 1rem;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    background: royalblue;
+    border-radius: 10px;
+    transition: var(--transition);
+
+}
+.contact-form button:hover{
+    transform: scale(1.1);
+}
+
+.contact__social-links{
+    text-align: center;
+    margin-top: 2rem;
+}
+.contact__social-links h4{
+    margin-bottom: 1rem;
+}
+.contact__social-links .links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.contact__social-links .links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.contact__social-links .links a {
+    color:#fff;
+    text-decoration: none; 
+    display: block; 
+    margin-bottom: 10px; 
+    max-width: 150px;
+    margin: auto;
+}
+  
+  .contact__social-links .links a:hover {
+    color: inherit; 
+  }
+  
+  .contact__social-links .links a:nth-child(3):hover {
+    color: green; 
+  }
+  
+  .contact__social-links .links a:nth-child(2):hover {
+    color: blue; 
+  }
+  
+  .contact__social-links .links a:nth-child(1):hover {
+    color: brown;
+  }
+  
+  @media (max-width:768px){
+    ::placeholder{
+        font-size: 16px;
+        text-align: left;
+    }
+  }
