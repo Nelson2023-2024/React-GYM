@@ -7,7 +7,7 @@ import '../Pages/home/home.css'
 //images
 import Image from '../images/main_header.png'
 
-function MainHeader() {
+function Hero() {
   return (
    <header className="main__header">
     <div className="container main__header-container">
@@ -31,4 +31,4 @@ function MainHeader() {
   )
 }
 
-export default MainHeader
+export default Hero

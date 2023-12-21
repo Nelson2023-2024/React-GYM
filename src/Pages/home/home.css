@@ -307,7 +307,7 @@ footer{
         margin: 2rem auto 8rem;
     }
     .values__wrapper{
-        gap: 1rem ;
+        gap: 2rem 1rem ;
     }
 
     /* FAQs */
@@ -325,6 +325,9 @@ footer{
     }
 }
     @media (max-width:768px) {
+        *{
+            text-align: center;
+        }
         /* MAINHEADER */
         .main__header{
            margin-top: 0;
@@ -380,6 +383,7 @@ footer{
 
     @media (max-width:600px) {
         /* VALUES */
+       
         .values{
             margin-bottom: 1rem;
         }

@@ -1,7 +1,7 @@
 
 import './home.css'
 
-import MainHeader from '../../Components/MainHeader'
+import Hero from '../../Components/Hero'
 import Programs from '../../Components/Programs'
 import Values from '../../Components/Values'
 import FAQs from '../../Components/FAQs'
@@ -11,7 +11,7 @@ import Footer from '../../Components/Footer'
 function Home() {
   return (
     <>
-    <MainHeader/>
+    <Hero/>
     <Programs/>
     <Values/>
     <FAQs/>
