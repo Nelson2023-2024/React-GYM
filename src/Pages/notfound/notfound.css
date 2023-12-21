@@ -1,0 +1,10 @@
+.section{
+    margin-top: 7rem;
+}
+.notfound__container{
+    display: grid;
+    gap: 2.5rem;
+}
+.notfound__container h2{
+    text-align: center;
+}
