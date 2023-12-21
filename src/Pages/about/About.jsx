@@ -22,13 +22,12 @@ function About() {
           <img src={StoryImage} alt="Our story-image" />
         </div>
         <div className="about__section-content">
-          <h1>Our Story</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque ratione, vero molestias dolore consequuntur eveniet enim impedit qui, odit doloremque illum et aperiam voluptate. Odio, iste unde! Ipsa, distinctio dolore.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil dolorem natus necessitatibus tempora ipsam qui voluptates vel eius, at commodi. Porro consequuntur, cumque quam harum sed ipsam excepturi asperiores rem?</p>
-
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed at quasi natus distinctio illo, pariatur, dicta omnis id, possimus commodi sit. Minima assumenda, facere nisi ut unde atque fugit?</p>
-
+        <h1>Our Story</h1>
+            <p>At our gym, our story is one of dedication and passion for fitness. We began with a small group of enthusiasts who believed in creating a space for everyone to embrace wellness.</p>
+            
+            <p>Throughout the years, our community has grown, fostering friendships and transformations. We celebrate every milestone and triumph achieved by our members.</p>
+            
+            <p>Join us in this journey, where every step forward is a victory, and together, we redefine the limits of fitness.</p>
         </div>
       </div>
     </section>
@@ -36,10 +35,10 @@ function About() {
     <section className="about__vision">
       <div className="about__vision-container container">
         <div className="about__section-content">
-          <h1>Our Vision</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque ratione, vero molestias dolore consequuntur eveniet enim impedit qui, odit doloremque illum et aperiam voluptate. Odio, iste unde! Ipsa, distinctio dolore.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil dolorem natus necessitatibus tempora ipsam qui voluptates vel eius, at commodi. Porro consequuntur, cumque quam harum sed ipsam excepturi asperiores rem?</p>
+        <h1>Our Vision</h1>
+            <p>Our vision transcends conventional fitness. We envision a world where wellness is not just a trend but a way of life.</p>
+            
+            <p>We strive to build a community where individuals are empowered to embrace healthier habits, not just within our gym but in their daily lives.</p>
         </div>
         <div className="about__section-img">
           <img src={VisionImage} alt="Our vision-image" />
@@ -53,11 +52,10 @@ function About() {
           <img src={MissionImage} alt="Our mission-image" />
         </div>
         <div className="about__section-content">
-          <h1>Our Mission</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque ratione, vero molestias dolore consequuntur eveniet enim impedit qui, odit doloremque illum et aperiam voluptate. Odio, iste unde! Ipsa, distinctio dolore.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil dolorem natus necessitatibus tempora ipsam qui voluptates vel eius, at commodi. Porro consequuntur, cumque quam harum sed ipsam excepturi asperiores rem?</p>
-
+        <h1>Our Mission</h1>
+            <p>Our mission is to inspire and support individuals in achieving their fitness goals, regardless of where they are in their journey.</p>
+            
+            <p>We aim to create an inclusive environment that motivates and guides our members toward healthier lifestyles, fostering a sense of belonging and accomplishment.</p>
 
         </div>
       </div>
