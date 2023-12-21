@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import About from './Pages/about/about'
 import Contact from './Pages/contact/Contact'
@@ -27,6 +28,7 @@ function App() {
         <Route element={<Trainer/>} path='/trainers'/>
         <Route element={<Notfound/>} path='*'/>
       </Routes>
+      <Footer/>
      </BrowserRouter>
     
   )

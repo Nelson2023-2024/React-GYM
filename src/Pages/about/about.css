@@ -1,0 +1,26 @@
+.about__section-img img{
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+.about__section-content h1{
+    margin-bottom: 2rem;
+}
+.about__section-content p{
+    margin-bottom: 1rem;
+}
+
+.about__story-container,
+.about__mission-container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about__vision-container{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+    gap: 3rem;
+}
