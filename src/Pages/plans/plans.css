@@ -60,6 +60,10 @@
     .plans__container {
         grid-template-columns: repeat(2, 1fr);
       }
+      .plan:nth-child(3){
+        position: relative;
+        left: 50%;
+      }
 }
 
 @media (max-width:768px){
@@ -67,6 +71,10 @@
         grid-template-columns: repeat(1, 500px);
         justify-content: center;
     }
+    .plan:nth-child(3){
+        position:relative ;
+        left: 0;
+      }
     .plan button{
         margin-top: 2rem; 
        
