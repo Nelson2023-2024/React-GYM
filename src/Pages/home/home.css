@@ -377,6 +377,12 @@ footer{
          .faqs__wrapper{
             grid-template-columns: 1fr;
          }
+         .faqs__wrapper h4{
+            font-size: 14px;
+         }
+         .faqs__wrapper p{
+            font-size:12px ;
+         }
          /* TESTIMONIALS */
          
          
