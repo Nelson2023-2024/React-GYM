@@ -12,7 +12,7 @@ function FAQ({question, answer}) {
 
     const [isAnswerShowing,  setIsAnswerShowing] = useState(false)
   return (
-    <article className='wrapper' onClick={() => setIsAnswerShowing(previsShowing => !previsShowing)} className="faq">
+    <article  onClick={() => setIsAnswerShowing(previsShowing => !previsShowing)} className="faq">
         <div >
             <h4>{question}</h4>
             <button className="faq__icon" style={{cursor:'pointer'}}>

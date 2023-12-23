@@ -353,6 +353,10 @@ footer{
             width: 84%;
             margin: auto;
         }
+        .programs__wrapper .card{
+            width: 95%;
+
+        }
 
         /* VALUES */
         .values__right .section__head{
@@ -382,6 +386,10 @@ footer{
          }
          .faqs__wrapper p{
             font-size:12px ;
+         }
+         .faqs__wrapper article{
+            width: 98%;
+            margin: auto;
          }
          /* TESTIMONIALS */
          
