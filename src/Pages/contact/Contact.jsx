@@ -21,8 +21,7 @@ function Contact() {
   return (
     <>
     <PrimaryHeader title={'Get In Touch'} image={HeaderImage}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nulla rem eos quod mollitia aperiam impedit autem, explicabo maxime veniam fugiat fugit dolorem adipisci odit accusantium quam non laborum error?
-    </PrimaryHeader>
+    Have inquiries about our gym services? Need assistance? Were here to help! Reach out to us for details on memberships, fitness programs, nutritional advice, or any questions about achieving your fitness goals. Our dedicated team is ready to support you on your fitness journey      </PrimaryHeader>
     <section className="contact">
       <div className="container contact__container">
         <div className="contact__wrapper">

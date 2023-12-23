@@ -19,8 +19,7 @@ function Plans() {
   return (
     <>
     <PrimaryHeader title={'Membership Plans'} image={HeaderImage}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, veritatis illo. Sint, quos. Eum eos aliquid vel quia blanditiis consequatur vitae ad, veritatis dolorem officia adipisci, necessitatibus qui numquam illum.
-    </PrimaryHeader>
+    Discover our gyms vitality through compelling images revealing our facilities, workouts, and lively community. Explore defining moments shaping our fitness journey, extending a warm invitation to be part of our active community.    </PrimaryHeader>
 
     <section className="plans">
       <div className="container plans__container">

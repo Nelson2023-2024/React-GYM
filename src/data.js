@@ -1,7 +1,7 @@
 import {SiOpenaigym} from 'react-icons/si'
 import { GiCrownedSkull } from "react-icons/gi";
 import { CgGym } from "react-icons/cg";
-import { FaDumbbell, FaRunning, FaWeight, FaWater } from 'react-icons/fa';
+import { FaDumbbell, FaRunning, FaWeight } from 'react-icons/fa';
 
 
 
@@ -132,39 +132,39 @@ export const values = [
 
 
 
-
 export const faqs = [
     {
-        id: 1,
-        question: "How often should I exercise?",
-        answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
+      id: 1,
+      question: "What are some recommended exercise frequencies for beginners?",
+      answer: "For beginners, it's advisable to start with 2-3 sessions per week, gradually increasing as your fitness improves. Consistency matters more than intensity initially."
     },
     {
-        id: 2,
-        question: "What time of day is best to work out?",
-        answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
+      id: 2,
+      question: "When is the ideal time to workout for maximum effectiveness?",
+      answer: "The best time varies based on personal preferences and schedule. Some prefer mornings for an energy boost, while others find evenings more suitable. The key is to find a time that suits your routine and allows you to be consistent."
     },
     {
-        id: 3,
-        question: "How long should my workouts be?",
-        answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+      id: 3,
+      question: "What's the recommended duration for a workout session?",
+      answer: "Aim for 30-60 minutes per session, focusing on quality over quantity. Adjust the duration based on your fitness level, goals, and workout intensity."
     },
     {
-        id: 4,
-        question: "Do I need to warm up before my workouts?",
-        answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
+      id: 4,
+      question: "Is a warm-up necessary before exercising?",
+      answer: "Yes, warming up is crucial. It prepares your body by increasing blood flow, loosening muscles, and reducing the risk of injury. Spend 5-10 minutes on dynamic movements or light cardio before your main workout."
     },
     {
-        id: 5,
-        question: "Should I do strength training, cardio or both?",
-        answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
+      id: 5,
+      question: "What's the benefit of combining strength training and cardio?",
+      answer: "Both types offer unique benefits. Strength training builds muscles and boosts metabolism, while cardio improves cardiovascular health and endurance. A balanced routine incorporating both yields comprehensive fitness benefits."
     },
     {
-        id: 6,
-        question: "Should I lift weights for strength training?",
-        answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
+      id: 6,
+      question: "Should beginners include weight lifting in their workout regimen?",
+      answer: "Weight lifting can be beneficial for beginners when performed with proper form and guidance. It enhances strength, muscle tone, and overall fitness. Start with lighter weights and focus on correct techniques."
     }
-]
+  ];
+  
 
 
 
@@ -172,45 +172,43 @@ export const faqs = [
 
 
 
-
-export const testimonials = [
+  export const testimonials = [
     {
-        id: 1,
-        name: "Diana Ayi",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Student",
-        avatar: avatar1
+      id: 1,
+      name: "John Doe",
+      quote: "I've experienced an incredible transformation in my fitness journey since joining this gym. The trainers are top-notch, and the atmosphere is motivating. Highly recommended!",
+      job: "Marketing Consultant",
+      avatar: avatar1
     },
     {
-        id: 2,
-        name: "Daniel Vinyo",
-        quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Software Engineer",
-        avatar: avatar2
+      id: 2,
+      name: "Jane Smith",
+      quote: "The gym has been a game-changer for me. The variety of classes and personalized training have helped me achieve my fitness goals. The supportive community here is amazing!",
+      job: "Graphic Designer",
+      avatar: avatar2
     },
     {
-        id: 3,
-        name: "Edem Quist",
-        quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "University Lecturer",
-        avatar: avatar3
+      id: 3,
+      name: "Michael Johnson",
+      quote: "Exceptional facilities and a friendly team make this gym stand out. The trainers are knowledgeable and genuinely care about your progress. A fantastic place for fitness enthusiasts!",
+      job: "Teacher",
+      avatar: avatar3
     },
     {
-        id: 4,
-        name: "Grace Lavoe",
-        quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Talking Parrot",
-        avatar: avatar4
+      id: 4,
+      name: "Sarah Thompson",
+      quote: "I can't say enough about this gym! The atmosphere is welcoming, and the trainers go above and beyond to keep workouts exciting and effective. I'm delighted with my results!",
+      job: "Writer",
+      avatar: avatar4
     },
     {
-        id: 5,
-        name: "Nana Yaa Dankwa",
-        quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Pharmacist",
-        avatar: avatar5
+      id: 5,
+      name: "David Rodriguez",
+      quote: "Joining this gym has been one of the best decisions I've made. The variety of classes and supportive staff make every workout enjoyable. I've never felt better!",
+      job: "Financial Analyst",
+      avatar: avatar5
     }
-];
-
+  ];
 
 
 

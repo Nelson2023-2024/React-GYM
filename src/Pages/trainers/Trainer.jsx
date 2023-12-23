@@ -13,7 +13,6 @@ import Train from '../../Components/Train'
 //icons
 import { FaLinkedin } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
-import { FaSnapchatGhost } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -23,8 +22,7 @@ function Trainer() {
   return (
     <>
     <PrimaryHeader title='Trainers' image={HeaderImage}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium atque iste quis neque quo, laborum odit architecto a quam, at beatae illo ducimus expedita repudiandae corporis, aut earum quos.
-    </PrimaryHeader>
+    Discover the passion and expertise of our trainers, guiding you through your fitness journey with dedication and motivation.    </PrimaryHeader>
 
     <section className="trainers">
       <div className="container trainers__container">

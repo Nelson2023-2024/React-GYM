@@ -26,8 +26,7 @@ function Gallery() {
   return (
     <>
       <PrimaryHeader title={'Our Gallery'} image={HeaderImage}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis officia non vel, explicabo sapiente reprehenderit animi similique temporibus reiciendis iusto quod, dignissimos vitae laborum labore consequuntur sit autem cum? Molestiae.
-      </PrimaryHeader>
+      Experience our gyms energy through captivating images showcasing our facilities, workouts, and vibrant community. Explore moments that define our fitness journey, inviting you to join our thriving community.       </PrimaryHeader>
       <div className="container gallery__container">
         {images.map((image, index) => (
           <article key={index}>
