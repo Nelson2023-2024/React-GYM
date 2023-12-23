@@ -1,8 +1,9 @@
 
-import { FaPlus } from "react-icons/fa6";
-import { FaMinus } from "react-icons/fa";
-<FaMinus />
 
+import { IoIosArrowUp } from "react-icons/io";
+<IoIosArrowUp />
+import { IoIosArrowDown } from "react-icons/io";
+<IoIosArrowDown />
 import { useState } from "react";
 
 
@@ -15,7 +16,7 @@ function FAQ({question, answer}) {
         <div >
             <h4>{question}</h4>
             <button className="faq__icon" style={{cursor:'pointer'}}>
-            { isAnswerShowing ? <FaMinus/> : <FaPlus />  }
+            { isAnswerShowing ? <IoIosArrowUp/> : <IoIosArrowDown />  }
             </button>
         </div>
         {isAnswerShowing &&<p>{answer}</p>}
