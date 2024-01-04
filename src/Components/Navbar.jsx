@@ -4,8 +4,7 @@ import { useState } from 'react';
 //router links
 import { Link, NavLink } from 'react-router-dom'
 
-//logo
-import Logo from '../images/logo.png'
+
 
 //data- fetched
 import { links } from '../data'
@@ -27,7 +26,7 @@ function Navbar() {
     <nav>
       <div className="container nav__container">
         <Link onClick={() => setisNavShowing(false)} className='logo' to='/'>
-            <img src={Logo} alt="Nav Logo" />
+            Fitness Hub
         </Link>
 
         <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>

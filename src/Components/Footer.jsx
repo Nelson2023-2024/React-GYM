@@ -1,8 +1,7 @@
 //router
 import { Link } from "react-router-dom"
 
-//imgas
-import Logo from  '../images/logo.png'
+
 import { FaHeart } from "react-icons/fa";
 
 
@@ -26,10 +25,10 @@ function Footer() {
         <div className="container footer__container">
             <article>
                 <Link className="logo" to={'/'}>
-                    <img src={Logo} alt="image-logo" />
+                   Fitness Hub
                 </Link>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam tempora assumenda cumque sit mollitia id quos expedita voluptas autem!
+                    Welcome to Fitness Hub, your premier destination for fitness and well-being. Our mission is to provide a supportive community where you can achieve your fitness goals and lead a healthy lifestyle. Join us on the journey to a stronger, happier you!              
                 </p>
 
                 <div className="footer__socials">
@@ -41,24 +40,7 @@ function Footer() {
                 </div>
             </article>
 
-            <article>
-                <h4>Permalinks</h4>
-                <Link to='/about'>About</Link>
-                <Link to='/plans'>Plans</Link>
-                <Link to='/trainers'>Trainers</Link>
-                <Link to='gallery'>Gallery</Link>
-                <Link to='/contact'>Contact</Link>
-            </article>
-
-            <article>
-                <h4>Insights</h4>
-                <Link to='/s'>Blog</Link>
-                <Link to='/s'>Case Study</Link>
-                <Link to='/s'>Events</Link>
-                <Link to='/s'>Communities</Link>
-                <Link to='/s'>FAQS</Link>
-                
-            </article>
+           
 
             <article>
                 <h4>Get in Touch</h4>

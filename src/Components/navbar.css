@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 nav{
     height: 5rem;
     width: 100vw;
@@ -7,7 +8,8 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 99;   
+    z-index: 99;  
+    box-shadow: 5px 5px 10px black; 
 }
 
 /*only show on medium and small screens */
@@ -21,9 +23,14 @@ nav{
 }
 
 .logo{
-    width: 7rem;
     align-self: center;
     display: block;
+    font-family: 'Titan One', sans-serif;
+    font-size: 2rem;
+    background: linear-gradient(orange, purple);
+    background-clip: text;
+    color: transparent;
+    
 }
 
 .nav__links{
@@ -58,9 +65,7 @@ nav{
 
 /*MEDIA QUERIES (medium and small screens)*/
 @media(max-width:1024px){
-    nav{
-        background: red;
-    }
+    
     .nav__toggle-btn{
         display: inline-block;
         cursor: pointer;
