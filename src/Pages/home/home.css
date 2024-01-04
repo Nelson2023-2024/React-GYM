@@ -280,6 +280,7 @@ footer{
         height: fit-content;
         padding-top: 2.5rem;
         padding-bottom: 2rem;
+        margin-top: 7rem;
     }
     .main__header-container{
         gap: 0;
